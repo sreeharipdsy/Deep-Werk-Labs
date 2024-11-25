@@ -36,7 +36,7 @@ section {
 
 /* SECTION - ONE */
 .section-one {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   padding-top: 2.5%;
@@ -45,7 +45,7 @@ section {
 .hero-section {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
 }
 
@@ -106,7 +106,7 @@ section {
 
 @media (max-width: 991px) {
   .section-one {
-    height: 75vh;
+    height: auto;
     padding: 0;
   }
   .hero-section {
